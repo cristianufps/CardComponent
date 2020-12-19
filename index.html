@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="card__component">
+        <div class="card__header">
+          <img
+            src="images/bg-pattern-card.svg"
+            alt="Imagen del card card__header"
+          />
+        </div>
+
+        <img src="images/image-victor.jpg" alt="" />
+
+        <div class="card__body">
+          <div class="person__name">
+            <p id="name"><strong>Victor Crest</strong></p>
+            <p id="age">26</p>
+          </div>
+          <div class="person__location">
+            <p>London</p>
+          </div>
+        </div>
+
+        <div class="card__footer">
+          <div class="followers">
+            <span>80k</span>
+            <p>Followers</p>
+          </div>
+          <div class="likes">
+            <span>80.3k</span>
+            <p>Likes</p>
+          </div>
+          <div class="photos">
+            <span>1.4k</span>
+            <p>Photos</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="attribution__footer">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/GalvisDeveloper">Cristian Bustos</a>.
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Profile card component</title>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="info-container">
+      <svg id="background-picture" width="350" height="140" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="c"><stop stop-color="#0989B4" stop-opacity="0" offset="0%"/><stop stop-color="#53FFEE" offset="99.94%"/></linearGradient><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="d"><stop stop-color="#0989B4" stop-opacity="0" offset="0%"/><stop stop-color="#53FFEE" offset="99.94%"/></linearGradient><path id="a" d="M0 0h350v140H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><use fill="#41CBD3" xlink:href="#a"/><g mask="url(#b)" opacity=".5"><g transform="translate(-11 -4)"><ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(-11 91.63)"><ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(-11 43.815)"><ellipse fill="url(#c)" transform="rotate(-90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(-90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(11.822 18.77)"><ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(11.822 114.4)"><ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(11.822 66.585)"><ellipse fill="url(#c)" transform="rotate(-90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(-90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g></g></g></svg>s
+    </div>   
+       <div>
+      <img id="photo" src="images/image-victor.jpg" alt="picture of user">
+    </div>
+      <div id="personal-info">
+      <span id="name">Victor Crest</span>
+      <span id="age">26</span> 
+      <div id="location">
+        London
+      </div>
+    </div>
+    <div class="stats">
+    <div class="numbers">
+    <span>80K</span>
+    <span>803K</span>
+    <span>1.4K</span>
+    </div>
+    <div class="item">
+    <span id="Followers">Followers</span>
+    <span id="Likes">Likes</span>
+    <span id="photos">Photos</span>
+    </div>
+  </div>
+</body>
+</html>
+  -->

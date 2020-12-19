@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url("images/bg-pattern-bottom.svg"),
+      url("images/bg-pattern-top.svg");
+    background-color: darkcyan;
+    background-position: 60vw 20vw, -10vw -20vw;
+    background-repeat: no-repeat;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .card__component {
+    border-radius: 18px;
+    height: 350px;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    position: fixed;
+  }
+
+  .card__header img {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .attribution__footer {
+    align-items: center;
+    justify-content: center;
+    left: 39%;
+    position: fixed;
+    text-align: center;
+    top: 95%;
+  }
+
+  .card__footer {
+      display: flex;
+      margin-top: 120px;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .card__footer .followers, .likes, .photos{
+      margin-right: 40px;
+  }
+}
+
+/*
+body{
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    color: hsl(0, 0%, 59%);
+    background-color: darkcyan;
+    background-image: url('images/bg-pattern-bottom.svg'),
+    url('images/bg-pattern-top.svg');
+    background-position: 43vw 30vw, -20vw -35vw;
+    background-repeat: no-repeat;
+}
+
+.profile-card{
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 350px;
+    border-radius: 18px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.profile-card #background-picture{
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    position: absolute;
+    z-index: 0;
+}
+
+#photo{
+    position: absolute;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    margin-left: 125px;
+    margin-top: 75px;
+    z-index: 1;
+}
+
+#personal-info{
+    position: absolute;
+    z-index: 1;  
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+#name{
+    color: #272935;
+    font-weight: 700;
+}
+
+#age{
+    margin-left: 3px;
+}
+
+#location{
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 13px;
+}
+
+.stats{
+    position: absolute;
+    margin-top: 260px;
+    border-top: 1px solid #E7E7E7;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.numbers span{
+    font-size: 15px;
+    margin-left: 55px;
+    padding: 5px;
+    font-weight: 700;
+    color: #272935;
+}
+
+.item span{
+    padding: 3px;
+    margin-left: 50px;
+    font-size: 10px;
+    margin-top: -4px;
+}
+
+#Followers{
+    margin-left: 45px;
+}
+
+#Likes{
+    margin-left: 61px;
+}
+
+#photos{
+        margin-left: 70px;
+} */
